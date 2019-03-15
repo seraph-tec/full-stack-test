@@ -1,6 +1,6 @@
 # Teste Prático
 
-1. Na pasta src, crie uma Landing Page integrada com a nossa API, seguindo as melhores práticas de programação, SEO e organização de código.
+1. Na pasta [src](/src/), crie uma Landing Page integrada com a nossa API, seguindo as melhores práticas de programação, SEO e organização de código.
 img
 
 2. Buscar os dados do endpoint, seguindo os Resources:
