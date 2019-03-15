@@ -14,6 +14,7 @@ RESPOSTA:
 
 RESPOSTA:
 
+
 **CSS**
 
 4. Por quê é importante não fazer seletores por tags html?
@@ -23,6 +24,7 @@ RESPOSTA:
 5. Quais práticas/recursos devem ser usados para criar sites responsivo?
 
 RESPOSTA:
+
 
 **JS**
 
