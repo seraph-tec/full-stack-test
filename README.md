@@ -9,7 +9,7 @@ Bem vindo ao teste para desenvolvedor Full Stack da Seraph! Vamos Avaliar o seu 
 
 ## Observações
 * Questões que você não sabe a resposta podem ser deixadas em branco
-* É permitido utilizar apenas o Bootstrap como framework de desenvolvimento do teste.
+* É permitido utilizar apenas o Bootstrap como framework de layout.
 * Vamos avaliar sua capacidade de pensar fora da caixa. Então qualquer melhoria ou oportunidade que você considere pertinente, sinta-se à vontade em colocar em prática.
 
 ## Diferenciais
