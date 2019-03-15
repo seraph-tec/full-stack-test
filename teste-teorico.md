@@ -1,6 +1,6 @@
 # Teste Teórico
 
-SEO
+**SEO**
 
 1. O que é o redirecionamento 301? Dê um exemplo.
 
@@ -14,7 +14,7 @@ RESPOSTA:
 
 RESPOSTA:
 
-CSS
+**CSS**
 
 4. Por quê é importante não fazer seletores por tags html?
 
@@ -24,7 +24,7 @@ RESPOSTA:
 
 RESPOSTA:
 
-JS
+**JS**
 
 6. Qual recurso do javascript é mais recomendado para tratar processamentos assíncronos? Justifique.
 
