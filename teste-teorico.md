@@ -4,7 +4,7 @@
 
 1. O que é o redirecionamento 301? Dê um exemplo.
 
-RESPOSTA:
+> RESPOSTA:
 
 2. O que é um link No-Follow?
 
