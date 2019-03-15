@@ -12,8 +12,7 @@ No Wireframe abaixo, está a estrutura desta Landing Page:
 ![wireframe](https://blog.lidery.org.br/wp-content/uploads/2019/03/Wireframe2.jpg)
 
 
-2. Buscar os dados do endpoint, seguindo os Resources:
-img
+2. Para buscar as imagem do carrossel, utilize o seguinte [Json](https://jsonplaceholder.typicode.com/photos). 
 
 3. Construa um formulário para gerar leads e enviar email.
 
