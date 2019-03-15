@@ -2,6 +2,13 @@
 
 1. Na pasta [src](/src/), crie uma Landing Page integrada com a nossa API, seguindo as melhores práticas de programação, SEO e organização de código.
 
+No Wireframe abaixo, está a estrutura desta Landing Page:
+* Menu com logo, menu para a própria página e um CTA que abre um modal com um formulário.
+* Primeiro bloco em full-height com título, sub-título e CTA que leva o usuário para o formulário ao final da página.
+* Segundo bloco com título e um carrossel de imagens (Ver item dois para saber sobre as imagens).
+* Terceiro bloco com informações de formulário.
+* Footer
+
 ![wireframe](https://blog.lidery.org.br/wp-content/uploads/2019/03/Wireframe2.jpg)
 
 
