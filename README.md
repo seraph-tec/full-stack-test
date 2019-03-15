@@ -14,8 +14,7 @@ Bem vindo ao teste para desenvolvedor Full Stack da Seraph! Vamos Avaliar o seu 
 
 ## Diferenciais
 * ES6/ES7
-* TypeScript
-* Programação funcional
+* Angular
 * Código limpo
 * Criatividade em encontrar a melhor solução 
 * Reutilização
