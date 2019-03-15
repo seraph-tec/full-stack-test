@@ -6,6 +6,6 @@ img
 2. Buscar os dados do endpoint, seguindo os Resources:
 img
 
-3.Construa um formulário para gerar leads e enviar email.
+3. Construa um formulário para gerar leads e enviar email.
 
 4. Para gerar leads, utilize o endereço para fazer um post em nossa API e a nossa estrutura de dados:
