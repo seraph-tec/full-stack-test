@@ -2,7 +2,7 @@
 
 1. Na pasta [src](/src/), crie uma Landing Page integrada com a nossa API, seguindo as melhores práticas de programação, SEO e organização de código.
 
-![wireframe](https://drive.google.com/open?id=1omyrbmaSSdaVFrPgO0u2FcNqQl7oASuQ)
+![wireframe](https://blog.lidery.org.br/wp-content/uploads/2019/03/Wireframe.jpg)
 
 
 2. Buscar os dados do endpoint, seguindo os Resources:
