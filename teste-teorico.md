@@ -8,30 +8,30 @@
 
 2. O que é um link No-Follow?
 
-RESPOSTA:
+> RESPOSTA:
 
 3. O que é uma meta canonical e qual é a melhor a utilização dela?
 
-RESPOSTA:
+> RESPOSTA:
 
 
 **CSS**
 
 4. Por quê é importante não fazer seletores por tags html?
 
-RESPOSTA:
+> RESPOSTA:
 
 5. Quais práticas/recursos devem ser usados para criar sites responsivo?
 
-RESPOSTA:
+> RESPOSTA:
 
 
 **JS**
 
 6. Qual recurso do javascript é mais recomendado para tratar processamentos assíncronos? Justifique.
 
-RESPOSTA:
+> RESPOSTA:
 
 7. Quais os recursos mais recomendados para incluir ícones em um site? Justifique.
 
-RESPOSTA:
+> RESPOSTA:
