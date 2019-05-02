@@ -1,0 +1,26 @@
+/* Master Styles */
+* {
+    font-family: 'Nunito', 'sans-serif';
+}
+body {
+    overflow-x: hidden !important;
+}
+.white-link  {
+    color: white;   
+    font-weight: bold;
+    &_title {
+        font-size: 22px;
+    }
+    &:hover {
+        color: gray !important;
+        text-transform: none;
+        text-decoration: none;    
+    }
+}
+.btn-font-white {
+    color: white !important;
+    font-weight: 700;
+}
+.vertical-middle {
+    vertical-align: middle !important;
+}

@@ -1,0 +1,7 @@
+.full-content {
+    width: 100vw !important;
+    height: calc(100vh - 60px) !important;
+    > * {
+        text-align: center !important;
+    }
+}
