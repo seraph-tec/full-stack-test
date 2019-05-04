@@ -3,7 +3,11 @@
 }
 
 #link-form {
-	min-height: 50vh;
+	min-height: 350pt;
 	background-color: #eee;
 	border: #222 1px solid;
+}
+
+.texto-espacador {
+	min-height: 100pt;
 }

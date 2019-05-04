@@ -40,6 +40,10 @@
 			</div>
 		</div>
 
+		<div class="row justify-content-center align-items-center texto-espacador">
+			<h1 class="text-center ">Titulo</h1>
+		</div>
+
 		<div class="row">
 			<div class="col-sm-8 offset-2">
 				<div id="slide" class="carousel slide" data-ride="carousel">
