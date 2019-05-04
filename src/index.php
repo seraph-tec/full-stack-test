@@ -40,6 +40,32 @@
 			</div>
 		</div>
 
+		<div class="row">
+			<div class="col-sm-8 offset-2">
+				<div id="slide" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="img/1.jpg" alt="1">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="img/2.jpg" alt="2">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="img/3.jpg" alt="3">
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+					<a class="carousel-control-next" href="#slide" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Próximo</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
 	</div>
 
 </body>
