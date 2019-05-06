@@ -11,3 +11,7 @@
 .texto-espacador {
 	min-height: 100pt;
 }
+
+input[type='text'], .btn {
+	border-radius: 20pt;
+}
