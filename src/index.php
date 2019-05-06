@@ -12,6 +12,7 @@
 	
 	<link rel="stylesheet" href="/css/index.css">
 	<link rel="stylesheet" href="/css/menu.css">
+	<link rel="stylesheet" href="/css/form.css">
 
 	<script src="/js/jquery.js"></script>
 	<script src="/js/bootstrap.js"></script>
@@ -22,7 +23,7 @@
 
 <body>
 	<div class="container-fluid">
-		<?php require_once 'menu.php' ?>
+		<?php include_once 'menu.php' ?>
 		
 		<div id="link-form" class="row justify-content-center align-items-center">
 			<div>
@@ -48,15 +49,40 @@
 			<div class="col-sm-8 offset-2">
 				<div id="slide" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img class="d-block w-100" src="img/1.jpg" alt="1">
-						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="img/2.jpg" alt="2">
-						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="img/3.jpg" alt="3">
-						</div>
+
+						<?php
+							
+							ini_set("allow_url_fopen", 1);
+
+							$json = file_get_contents('https://jsonplaceholder.typicode.com/photos'); // recupera imagens
+							$obj = json_decode($json); // converte json
+
+							$num = 0; // indice do loop
+							$max = 50; // número máximo de imagens
+
+							foreach($obj as $elemento)
+							{
+								if ($num >= $max) break;
+
+								?>
+									<div class="carousel-item<?php if ($num == 0) echo " active";?>">
+										<div class="card">
+										<img class="card-img-top img-fluid" src="<?php echo $elemento->url; ?>" alt="<?php echo $elemento->title; ?>">
+											<div class="card-body">
+												<p class="card-text"><?php echo $elemento->title; ?></p>
+											</div>
+										</div>
+									</div> 
+								<?php
+
+								$num++;
+
+							}
+
+							unset($obj); // limpa memória
+
+						?>
+
 					</div>
 					<a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -69,6 +95,8 @@
 				</div>
 			</div>
 		</div>
+
+		<?php include_once 'form.php' ?>
 
 	</div>
 

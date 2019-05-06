@@ -1,0 +1,10 @@
+.form-fora {
+	min-height: 300pt;
+}
+
+.form-dentro {
+	background-color: #999;
+	border: 1px solid #111;
+	padding: 40pt;
+	border-radius: 5pt;
+}
