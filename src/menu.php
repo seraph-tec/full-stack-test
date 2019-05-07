@@ -12,5 +12,5 @@
 			<li class="nav-item menu-item"><a class="nav-link" href="#">Link</a></li>
 		</ul>
 	</div>
-	<span class="mt-1 w-50 text-right order-1 order-md-last"><button class="btn btn-primary menu-btn-modal" href="#">Modal</button></span>
+	<span class="mt-1 w-50 text-right order-1 order-md-last"><button type="button" data-toggle="modal" data-target="#modal" class="btn btn-default menu-btn-modal">Modal</button></span>
 </nav>
