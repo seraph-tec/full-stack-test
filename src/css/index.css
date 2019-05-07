@@ -1,0 +1,21 @@
+.container-fluid {
+	padding: 0;
+}
+
+#link-form {
+	min-height: 350pt;
+	background-color: #eee;
+	border: #222 1px solid;
+}
+
+.texto-espacador {
+	min-height: 100pt;
+}
+
+input[type='text'], .btn {
+	border-radius: 20pt;
+}
+
+.modal-dialog {
+	min-width: 80%;
+}

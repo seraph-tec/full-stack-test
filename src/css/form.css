@@ -1,0 +1,11 @@
+.form-fora {
+	padding-top: 200pt;
+	padding-bottom: 100pt;
+}
+
+.form-dentro {
+	background-color: #CCC;
+	border: 1px solid #111;
+	padding: 40pt;
+	border-radius: 5pt;
+}
