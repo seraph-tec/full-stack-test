@@ -2,15 +2,15 @@
 	require_once 'campos.php';
 ?>
 <div class="container-fluid">
-	<div class="row form-fora justify-content-center algin-items-center">
-		<div class="col-sm-2 offset-2">
+	<div class="row form-fora justify-content-center algin-items-center" id="form">
+		<div class="col-sm-3 offset-2">
 			<h1>Teste teste teste</h1>
 			<h2>Teste</h2>
 			<h2>Teste</h2>
 			<h2>Teste</h2>
 		</div>
 
-		<div class="col-sm-5 offset-sm-1 col-xs-6">
+		<div class="col-sm-5">
 			<div class="row">
 				<div class="col-sm-12">
 					<form action="post.php" class="form-dentro" method="post">
