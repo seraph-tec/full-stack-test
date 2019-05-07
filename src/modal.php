@@ -33,7 +33,7 @@
 								?>
                             
 								<div class="text-center">	
-									<input type="submit" class="btn btn-primary" data-dismiss="modal" value="Enviar">
+									<input type="submit" class="btn btn-primary" value="Enviar">
 								</div>
 							</form>
 						</div>
