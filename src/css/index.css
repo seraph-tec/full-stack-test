@@ -15,3 +15,7 @@
 input[type='text'], .btn {
 	border-radius: 20pt;
 }
+
+.modal-dialog {
+	min-width: 80%;
+}

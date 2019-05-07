@@ -98,8 +98,9 @@
 
 		<?php include_once 'form.php' ?>
 
+		<!-- Modal -->
+		<?php include_once 'modal.php' ?>
 	</div>
-
 </body>
 
 </html>
