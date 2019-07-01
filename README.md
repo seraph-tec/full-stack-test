@@ -1,3 +1,17 @@
+1 - Para rodar o projeto, faça o download do servidor XAMPP neste endereço:
+https://www.apachefriends.org/xampp-files/7.2.19/xampp-windows-x64-7.2.19-2-VC15-installer.exe
+
+2 - Depois instalado, por padrão, o XAMPP é instalado em C:\xampp. Abra o XAMPP, inicie o servidor Apache e clone o repositório na pasta htdocs em C:\xampp\htdocs.
+
+3 - Após clonado, navegue até o repositório pelo terminal windows ou GIT Bash e rode os comando abaixo:
+    * composer install
+    * npm install
+    * npm require dev
+
+Caso tenha outro servidor rodando PHP, desconsidere a instalação do XAMPP.
+
+
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
