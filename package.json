@@ -1,0 +1,38 @@
+{
+  "name": "full-stack-test",
+  "version": "1.0.0",
+  "description": "Seraph Full Stack Test",
+  "main": "index.js",
+  "dependencies": {
+    "alertifyjs": "^1.11.4",
+    "angular": "^1.7.8",
+    "angular-animate": "^1.7.8",
+    "angular-touch": "^1.7.8",
+    "bootstrap": "^4.3.1",
+    "cross-env": "^5.2.0",
+    "jquery": "^3.4.1",
+    "laravel-mix": "^4.0.16",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.15.0",
+    "ui-bootstrap4": "^3.0.6"
+  },
+  "scripts": {
+    "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffersonlsantos/full-stack-test.git"
+  },
+  "author": "Jefferson Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffersonlsantos/full-stack-test/issues"
+  },
+  "homepage": "https://github.com/jeffersonlsantos/full-stack-test#readme",
+  "devDependencies": {
+    "vue-template-compiler": "^2.6.10"
+  }
+}

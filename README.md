@@ -1,23 +1,21 @@
-# Olá candidato
-Bem vindo ao teste para desenvolvedor Full Stack da Seraph! Vamos Avaliar o seu conhecimento técnico em JavaScript, técnicas de desenvolvimento e arquitetura, uso ferramentas auxiliares e lógica. Boa sorte!
+# Lumen PHP Framework
 
-## Instruções
-1. Faça um fork deste repositório na sua conta do github
-2. Responda ao [Teste Teórico](teste-teorico.md) nos espaços reservados
-3. Clone o repositório em sua máquina e desenvolva o [Teste Prático](teste-pratico.md)
-4. Ao terminar os testes teórico e prático, crie um pull request para este repositório.
+[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
+[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
+[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
+[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
 
-## Observações
-* Questões que você não sabe a resposta podem ser deixadas em branco
-* É permitido utilizar apenas o Bootstrap como framework de layout.
-* Vamos avaliar sua capacidade de pensar fora da caixa. Então qualquer melhoria ou oportunidade que você considere pertinente, sinta-se à vontade em colocar em prática.
+Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
 
-## Diferenciais
-* ES6/ES7
-* Angular
-* Código limpo
-* Criatividade em encontrar a melhor solução 
-* Reutilização
-* Documentação
-* SEO
-* Segurança da informação
+## Official Documentation
+
+Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
