@@ -1,0 +1,42 @@
+
+html,body {
+	height:100%;
+	background-color: #6ec0b4;
+}
+.landing-background-green {
+	background-color: #6ec0b4;
+}
+.landing-background-pink {
+	background-color: #e4b2a3;
+}
+.carousel-control-next, .carousel-control-prev {
+	position: absolute;
+	top: -152px;
+	bottom: 0;
+	z-index: 1;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 36%;
+	color: #fff;
+	text-align: center;
+	opacity: .5;
+	transition: opacity .15s ease;
+}
+.footer {
+  position:static;
+  bottom: 0;
+  width: 100%;
+  float: left;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #343a40;
+  color: #ffffff;
+}
+.alert {
+	background-color: #585857;
+	color: #ffffff;
+}

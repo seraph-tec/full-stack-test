@@ -19,18 +19,18 @@
 
 4. Por quê é importante não fazer seletores por tags html?
 
-> RESPOSTA:
+> RESPOSTA: Fazer seletor por tag irá aplicar a estilização a todos os elementos pelo o nome da tag em específico, não podendo ser sobrescrito.
 
 5. Quais práticas/recursos devem ser usados para criar sites responsivo?
 
-> RESPOSTA:
+> RESPOSTA: User Agent para verificar o Web Browser de acesso e as Media Queries para identificar o tamanho da tela do dispositivo.
 
 
 **JS**
 
 6. Qual recurso do javascript é mais recomendado para tratar processamentos assíncronos? Justifique.
 
-> RESPOSTA:
+> RESPOSTA: Callbacks, pois são responsáveis por gerenciar o fluxo de cada requisição gerada.
 
 7. Quais os recursos mais recomendados para incluir ícones em um site? Justifique.
 

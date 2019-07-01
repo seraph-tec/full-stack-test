@@ -1,0 +1,41 @@
+<div class="modal-header">
+    <h3 class="modal-title" id="modal-title">Formulário</h3>
+</div>
+<div class="modal-body" id="modal-body">
+    <form name="contactForm" method="post" autocomplete="off" ng-submit="sendForm()" novalidate>
+        <div class="form-group">
+
+            <label for="firstName">First Name</label>
+            <input ng-model="contact.firstName" name="firstName" type="text" class="form-control" id="firstName" placeholder="First Name" required>
+            <br />
+            <label for="lastName">Last Name</label>
+            <input ng-model="contact.lastName" type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+            <br />
+            <label for="country">Country</label>
+            <select ng-model="contact.country" class="form-control" id="country" required >
+                <option ng-repeat="country in countries" value="<% country.sigla %>"><% country.nome %></option>
+            </select>
+            <br />
+            <label for="street">Street</label>
+            <input type="text" ng-model="contact.street" class="form-control" id="street" placeholder="Street" required>
+            <br />
+            <label for="city">City</label>
+            <input type="text" ng-model="contact.city" class="form-control" id="city" placeholder="City" required>
+            <br />
+            <label for="emailAddress">Email Address</label>
+            <input type="email" ng-model="contact.emailAddress" class="form-control" id="emailAddress" placeholder="Email Address" required>
+            <br />
+            <label for="state">State</label>
+            <select ng-model="contact.state" class="form-control" id="state" required >
+                <option ng-repeat="state in states" value="<% state.sigla %>"><% state.nome %></option>
+            </select>
+            <br />
+            <label for="mobilePhoneNumber">Mobile Phone Number</label>
+            <input ng-model="contact.mobilePhoneNumber" type="text" class="form-control" id="mobilePhoneNumber" placeholder="Mobile Phone Number" required>
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="$ctrl.sendForm()">Enviar</button>
+    <button class="btn btn-warning" type="button" ng-click="$ctrl.cancel()">Cancelar</button>
+</div>
