@@ -1,0 +1,139 @@
+html{
+	background-color: #FFF;
+}
+
+body{
+	color:#444;
+
+	h2{
+		text-transform: uppercase;
+	}
+}
+
+nav{
+
+	@media (max-width: 767px){
+		div{
+			display: block;
+			width: 100%;
+		}
+
+		.logoWrapper, .ctaWrapper{
+			text-align: center;
+		}
+
+		.logoWrapper{
+			margin-bottom:30px;
+		}
+
+		.ctaWrapper{
+			margin-top:30px;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 991px){
+		height: 70px !important;
+	}
+
+	.navbar-toggler{
+		position: absolute;
+    	right: 10px;
+    	top: 16px;
+	}
+
+	.nav-item{
+
+		@media (max-width: 1008px){
+			text-align: center !important;
+			display: block
+		}
+	}
+	.nav-link{
+		padding-right: 1.5rem !important;
+		padding-left: 1.5rem !important;
+	}
+}
+
+.topo{
+	background-color: #999;
+
+	.jumbotron{
+		background-color: transparent;
+		text-align: center;
+
+		@media (max-width: 350px){			
+
+			h1{
+				font-size: 2rem !important;
+				color: #f2f2f2;
+			}
+			p{
+				font-size:1rem !important;
+			}
+		}
+
+		P{
+			color: #f1f1f1;
+		}
+		h1{
+			color: #f2f2f2;
+		}
+	}
+	
+}
+
+section{
+	padding: 60px 0;
+
+	&.carrossel{
+		text-align: center;		
+		background-color: #f2f2f2;
+	
+		#photosCarousel{
+	
+			margin: 50px auto 30px;
+	
+			img{
+				max-width: 100% !important;
+			}
+		
+			h4{
+				text-align: center;
+				color: #666;
+			}
+	
+			.each-photo{
+				min-height: 360px;
+			}
+		}
+	
+	}
+
+	&.formulario{
+		h2{
+			font-size: 1.6rem;
+			margin-bottom: 40px;
+		}
+
+		input,select{
+			color:#000;
+			/*font-weight: bold;*/
+		}
+
+		#retornoAjax{
+			display: none;
+		}
+	}
+	
+}
+
+footer{
+	text-align: center;
+	background-color: #444;
+	color: #f1f1f1;	
+	padding: 20px 0;
+
+	p{
+		margin:0 !important;
+	}
+}
