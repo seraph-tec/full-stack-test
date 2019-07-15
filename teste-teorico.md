@@ -6,6 +6,9 @@
 
 > RESPOSTA: O redirect 301 é uma instrução no servidor para informar que uma página ou um site inteiro foi migrado para um outro domínio.
 
+
+um bom exemplo é acessar o site do [Unibanco](https://www.unibanco.com.br) e ser direcionado para o site do banco [Itaú](https://www.itau.com.br).    
+
 2. O que é um link No-Follow?
 
 > RESPOSTA: é um atributo HTML que diz para os buscadores não seguir e ranquear o link informado.
@@ -14,7 +17,9 @@
 
 > RESPOSTA: é uma tag que serve para informar para os buscadores qual é a página preferencial, evitando assim a duplicação de conteúdo melhorando o ranqueamento do site.
 
-ex: meusite.com.br/index.html meusite.com.br .
+Uma boa utilização seria com URL amigáveis.
+ex: meusite.com.br/index.html 
+    meusite.com.br 
 Assim você avisa para o buscador considerar o meusite.com.br.
 
 
