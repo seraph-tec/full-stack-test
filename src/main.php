@@ -1,4 +1,3 @@
-
     <header class="masthead">
         <div class="container d-flex h-100 align-items-center">
           <div class="mx-auto text-center">
@@ -9,7 +8,7 @@
         </div>
     </header>
 
-    <section id="image" class="about-section">
+    <section id="image" class="img-section">
         <div class="container">
             <div class="row">
                 <h3 class="text-white text-center mb-5">Imagens</h3>
@@ -25,7 +24,7 @@
         </div>                    
     </section>
 
-    <section id="about" class="about-section text-center col-lg-6" style="float: left!important;">
+    <section id="about" class="about-section text-center col-lg-6">
         <div class="container mb-5">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -36,7 +35,7 @@
         </div>
     </section>
 
-    <section id="form" class="about-section col-lg-6 col-sm-12" style="float: right!important;">
+    <section id="form" class="input-section col-lg-6 col-sm-12">
         <div class="container mb-1">
             <form action="form.php" method="post" class="form-inline text-white">                
                 <div class="form-group col-lg-5">

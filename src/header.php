@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Teste Bruno</title>    
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
@@ -16,31 +16,31 @@
     <script src="js/grayscale.min.js"></script>
 </head>
 <body id="#page-top">
-    
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger xs" href="#page-top"><img src="http://placehold.it/150x50?text=Logo" alt="Logo"></a>                      
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>            
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#image">Imagens</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#form">Cadastrar</a>
-                    </li>
-                    <li class="nav-item">                        
-                        <a class="nav-link js-scroll-trigger" data-toggle="modal" data-target="#modal" href="#">Mais informações</a>                        
-                    </li>
-                </ul>
-            </div>
+     
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger xs" href="#page-top"><img src="http://placehold.it/150x50?text=Logo" alt="Logo"></a>                      
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>            
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#image">Imagens</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#form">Cadastrar</a>
+                </li>
+                <li class="nav-item">                        
+                    <a class="nav-link js-scroll-trigger" data-toggle="modal" data-target="#modal" href="#">Mais informações</a>                        
+                </li>
+            </ul>
         </div>
-    </nav>
-<header>   
-</header>
+    </div>
+</nav>
+  
+
 
