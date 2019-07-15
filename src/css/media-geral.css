@@ -1,0 +1,43 @@
+.respiro {
+    height: 60px;
+}
+
+.btn-close {
+    display: none;
+}
+
+.btn-formulario-display {
+    display: none;
+}
+
+/*CONFIGURAR COR, BORDA APENAS. DEMAIS CONFIGURAÇÕES CONFIGURAR NA MEDIA RESPECTIVA*/
+.box {
+    background-color: #e1bd53;
+
+    /*GARANTE O FORMÚLARIO FIXO E SEMPRE A FRENTE DE TUDO*/
+    position: fixed;
+    z-index: 9000;
+}
+
+span#aguarde {
+    font-size: 1rem !important;
+}
+
+.efeito {
+    background-color: #000;
+    height: 2817px;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 4000;
+}
+a{
+    text-decoration: none;
+}
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
