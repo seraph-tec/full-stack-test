@@ -4,26 +4,30 @@
 
 1. O que é o redirecionamento 301? Dê um exemplo.
 
-> RESPOSTA:
+> RESPOSTA: O redirect 301 é uma instrução no servidor para informar que uma página ou um site inteiro foi migrado para um outro domínio.
 
 2. O que é um link No-Follow?
 
-> RESPOSTA:
+> RESPOSTA: é um atributo HTML que diz para os buscadores não seguir e ranquear o link informado.
 
-3. O que é uma meta canonical e qual é a melhor a utilização dela?
+3. O que é uma meta canonical e qual é a melhor utilização dela?
 
-> RESPOSTA:
+> RESPOSTA: é uma tag que serve para informar para os buscadores qual é a página preferencial, evitando assim a duplicação de conteúdo melhorando o ranqueamento do site.
+
+ex: meusite.com.br/index.html meusite.com.br .
+Assim você avisa para o buscador considerar o meusite.com.br.
 
 
 **CSS**
 
 4. Por quê é importante não fazer seletores por tags html?
 
-> RESPOSTA:
+> RESPOSTA: porque afetaria todas as tag's na página ou páginas do site que utilizem o mesmo arquivo css.
 
 5. Quais práticas/recursos devem ser usados para criar sites responsivo?
 
-> RESPOSTA:
+> RESPOSTA: Usar as tag's meta viewport, width=device-width e initial-scale.
+E também criar o layout do site/sistema sobre um sistema de grid  
 
 
 **JS**
